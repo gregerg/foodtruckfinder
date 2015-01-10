@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body ng-app="foodtruckfinder" ng-controller="mainController">
+
+<div class="app">
+  <div ng-repeat="truck in truckList">
+    name: {{truck.applicant}}, type: {{truck.facilitytype}}, food items: {{truck.fooditems}} 
+  </div>
+</div>
+
+<script src="components/angular/angular.min.js"></script>
+<script src="components/angular-route/angular-route.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers.js"></script>
+<script src="scripts/services.js"></script>
+</body>
+</html>

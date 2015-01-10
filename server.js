@@ -9,7 +9,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routes
+// - api
 app.use('/api', require('./routes/api'));
+// - frontend
+app.use(express.static(__dirname + '/public'));
 
 // Start server
 app.listen(port);
