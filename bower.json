@@ -1,0 +1,23 @@
+{
+  "name": "foodtruckfinder",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gregerg/foodtruckfinder",
+  "authors": [
+    "Greg Ferrell <gregerg@gmail.com>"
+  ],
+  "description": "food truck finding web app",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.8",
+    "angular-route": "~1.3.8"
+  }
+}
