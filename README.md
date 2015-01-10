@@ -9,7 +9,7 @@ This web application is a node backend with a basic angular front end. The code 
 
 Currently the front end accesses the back end api by with a latitude/longitude near fifth and market, and searches within 250 meters of that location. The backend can accept any lat/long and any distance.
 
-I plan to add a google maps interface in the future that allows a user to type in an address or click a location on the map.
+I plan to add a google maps interface in the future that allows a user to type in an address or click a location on the map. I may also add a redis cache so that the app is not hitting the sfgov api too frequently.
 
 ## Personal
 other code: https://github.com/gregerg/lifter/blob/master/CLI/helpers/dockerLib.js
