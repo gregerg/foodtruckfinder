@@ -1,6 +1,7 @@
 // Dependencies
 var express = require('express');
 var bodyParser= require('body-parser');
+var port = process.env.PORT || 3000;
 
 // Express
 var app = express();
@@ -11,5 +12,5 @@ app.use(bodyParser.json());
 app.use('/api', require('./routes/api'));
 
 // Start server
-app.listen(3000);
-console.log('API 3000');
+app.listen(port);
+console.log('server running on port', port);
