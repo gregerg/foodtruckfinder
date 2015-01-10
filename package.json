@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha ./test/test.js"
   },
   "author": "Greg Ferrell <gregerg@gmail.com> (http://gregerg.com/)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.10.1",
+    "chai": "^1.10.0",
     "express": "^4.10.6",
     "node-restful": "^0.1.17"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
   }
 }
