@@ -13,10 +13,5 @@ Also the api currently only accesses the sfgov endpoint for the food truck permi
 
 I plan to add a google maps interface in the future that allows a user to type in an address or click a location on the map. I may also add a redis cache so that the app is not hitting the sfgov api too frequently.
 
-## Personal
-other code: https://github.com/gregerg/lifter/blob/master/CLI/helpers/dockerLib.js
-
-linked-in: https://www.linkedin.com/pub/gregoryferrell
-
 hosted project: https://grg-foodtruckfinder.herokuapp.com/
 
